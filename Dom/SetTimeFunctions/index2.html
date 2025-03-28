@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SetIntrval</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-black text-white flex justify-center items-center">
+    <!-- Main Div -->
+
+    <div id="main" class="w-150 h-120 text-black flex flex-col justify-end">
+      <!--Img-->
+      <div class="w-full h-120 flex justify-center mb-10 p-5">
+        <div
+          class="h-full w-140 bg-[url('https://images.unsplash.com/photo-1742790159516-bdb38cf17481?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8')] bg-cover bg-center"
+        ></div>
+      </div>
+
+      <!--Child Div-->
+
+      <div id="Child" class="p-5 flex flex-col">
+        <!--Progress Bar-->
+
+        <div
+          id="Progrees"
+          class="w-full bg-white rounded flex flex-col relative h-5"
+        >
+          <div
+            id="Bar"
+            class="bar w-0 bg-green-700 absolute h-5 rounded"
+          ></div>
+        </div>
+
+        <!--Percentage Show-->
+
+        <h2 id="Percentage" class="flex justify-end mb-10 mt-2">0%</h2>
+
+        <!-- Song Info Download Button-->
+
+        <div id="info" class="flex justify-between">
+          <h4
+            class="w-30 bg-orange-500 flex items-center justify-center rounded-[5px] cursor-pointer"
+          >
+            Song.mp3
+          </h4>
+          <button
+            class="w-60 bg-green-700 h-10 rounded-[5px] active:scale-88 cursor-pointer border-0 text-white"
+          >
+            Download Now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>

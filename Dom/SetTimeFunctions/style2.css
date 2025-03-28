@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+    width: 100%;
+ 
+}
+
+#main{
+    background-color: #18230F;
+}
+
+#Child{
+    background-color: #255F38;
+}
+
+#Bar{
+    background-color: #18230F;
+}
+
+
